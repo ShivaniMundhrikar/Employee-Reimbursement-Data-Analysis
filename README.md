@@ -17,12 +17,14 @@ Currency Conversion to INR:
 Implemented logic to convert the "Amount" column into INR based on the currency:
 Used predefined exchange rates for USD and EUR to INR conversion.
 Rows with missing or INR values remain unchanged.
+
 Financial Insights and Measures:
 Created a Measure to calculate the sum of reimbursed amounts in INR across all entries.
 Created another Measure to calculate the total reimbursed amount for a specific project, "Project_B."
 
 Declined Requests Tracking:
 Developed a measure to count the number of declined requests based on certain conditions, helping to track and analyze project-related declines.
+
 Interactive Visuals and Reports:
 Built slicers for Project and Employee, allowing users to filter data dynamically.
 Created a Bar Chart to display the reimbursement amounts per employee.
